@@ -1,0 +1,144 @@
+.div__nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F4F4F4;
+  height: 80px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.mobile__nav__btn {
+  display: none;
+}
+
+.div__nav__elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div__delivery {
+  width: 230px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 8px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.div__delivery p {
+  color: #D80000;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.select__address {
+  min-width: 100%;
+  background: none;
+  border: none;
+  padding: 2px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.select__address:after {
+  background-image: #D80000;
+}
+
+.nav__search {
+  width: 354px;
+  background-color: #FFFFFF;
+  border: 1px solid #ED3237;
+  border-radius: 4px;
+  padding: 18px;
+  margin-left: 24px;
+  font-size: 14px;
+
+}
+
+.nav__btn {
+  margin-left: 35px;
+  color: #D80000;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+.icon__user {
+  margin-right: 10px;
+  color: #D80000;
+  Width: 26.67px;
+  Height: 26.67px;
+  font-size: 16px;
+  display: flex;
+}
+
+.icon__cart {
+  color: #D80000;
+  Width: 26.67px;
+  Height: 26.67px;
+  font-size: 16px;
+  position: absolute;
+  display: flex;
+
+}
+
+.top__Corne {
+  width: 20px;
+  height: 20px;
+  top: -10px;
+  right: -10px;
+  background-color: #F09035;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  position: relative;
+}
+
+/* .div__main {
+  width: 208px;
+  position: absolute;
+  right: 100px;
+  top: 60px;   
+  box-shadow: 3px 3px 4px #4e4e4e7a;
+  visibility: hidden;
+} */
+
+.div__main__hidden {
+  visibility: hidden;
+}
+
+@media (max-width: 1110px) {
+  .div__nav__elements {
+    display: none;
+  }
+
+  .mobile__nav__btn {
+    display: block;
+    position: absolute;
+    left: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    Width: 50px;
+    Height: 20px;
+  }
+
+  .mobile__arrow__menu {
+    Width: 25px;
+    Height: 25px;
+  }
+
+  .nav__box {
+    Width: 55.26px;
+    Height: 32px;
+  }
+
+  .nav__soon {
+    Width: 99.7px;
+    Height: 28.31px;
+  }
+}
